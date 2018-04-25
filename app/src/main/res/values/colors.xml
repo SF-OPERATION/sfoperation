@@ -3,4 +3,25 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--|| Login Activity login_background_color || -->
+    <color name="colorBackgroundLoginBlue"> #223E7D</color>
+    <color name="colorButtonLoginRed"> #EC1C24</color>
+
+    <!--|| Dashboard_color quick Repay ||-->
+    <color name="colorButtonQuickRepayRed"> #EC3643</color>
+    <color name="colorButtonDisburseSky"> #33C2EE</color>
+
+    <!--|| ActionBar_color ||-->
+    <color name="colorActionBarLowBlue"> #0055A0</color>
+
+    <!--|| CashManagement_color VS Receive Cash VS Issue Cash ||-->
+    <color name="colorHeadTableGray"> #E7E8EA</color>
+    <color name="colorButtonReceiveCashBlue"> #0056A2</color>
+    <color name="colorButtonIssueCashRed"> #ED3247</color>
+    <color name="colorBackgroundWhite"> #FFFFFF</color>
+    <color name="colorEditTextCashGray"> #E6E7E9</color>
+
+
+
 </resources>
