@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">SFoperation</string>
+
+    <!-- Login Layout-->
+    <string name="login_app_name">SF Operation</string>
+    <string name="login_remember_me">Remember Me</string>
+    <string name="login_forgot_password">Forgot Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_sign_up">Sign Up</string>
+
+
+
 </resources>
