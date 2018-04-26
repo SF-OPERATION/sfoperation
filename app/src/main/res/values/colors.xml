@@ -18,7 +18,14 @@
     <color name="colorButtonLoginRed"> #EC1C24</color>
     <color name="colorEditTextLoginWhite"> #FFFFFF</color>
 
+    <!--|| Dashboard  ||-->
+    <color name="colorDashboardBackground"> #223E7D</color>
+    <color name="coloDashboardTableWhite"> #FFFFFF</color>
+    <color name="colorDashboardButton"> #223E7D</color>
+
+
     <!--|| Dashboard_color quick Repay ||-->
+
     <color name="colorButtonQuickRepayRed"> #EC3643</color>
     <color name="colorButtonDisburseSky"> #33C2EE</color>
 
