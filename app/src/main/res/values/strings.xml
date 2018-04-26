@@ -8,6 +8,115 @@
     <string name="login_login">Login</string>
     <string name="login_sign_up">Sign Up</string>
 
+    <!-- Dashboard Layout-->
+    <string name="dashboard_cash_management"> Cash Management</string>
+    <string name="dashboard_loan_collection"> Loan Collection</string>
+    <string name="dashboard_loa_history"> Loan History</string>
+    <string name="dashboard_loan_report"> Loan Report </string>
+    <string name="dashboard_quick_repay"> Quick Repay</string>
+    <string name="dashboard_execute_payment">Execute bill payment</string>
+    <string name="dashboard_loan_disburse"> Loan Disburse</string>
+    <string name="dashboard_the_payment_of_money">the payment of your money</string>
 
+    <!--Cash Management Layout-->
 
+    <string name="cash_management"> Cash Management</string>
+    <string name="cash_management_receive_cash">Receive Cash</string>
+    <string name="cash_management_issue_cash"> Issue Cash</string>
+    <string name="cash_management_ccy"> CCY</string>
+    <string name="cash_management_in">In</string>
+    <string name="cash_management_out">Out</string>
+    <string name="cash_management_balance">Balance</string>
+
+    <!--Receive Cash Layout-->
+    <string name="receive_cash">Receive Cash</string>
+    <string name="receive_cash_from">From</string>
+    <string name="receive_cash_khr">KHR</string>
+    <string name="receive_cash_usd">USD</string>
+
+    <!--Issue Cash Layout-->
+    <string name="issue_to">Issue To</string>
+    <string name="issue_khr">KHR</string>
+    <string name="issue_usd">USD</string>
+    <string name="issue_submit">Submit</string>
+
+    <!--Loan Collection Layout-->
+    <string name="loan_collection">Loan Collection</string>
+    <string name="loan_collection_ref_no">Ref No</string>
+    <string name="loan_collection_total_due">Total Due</string>
+    <string name="loan_collection_usd">USD</string>
+    <string name="loan_collection_post_amount">Posted Amount</string>
+    <string name="loan_collection_amount_to_pay">Amount to Pay</string>
+    <string name="loan_collection_pay">Pay</string>
+    <string name="loan_collection_paid">Paid</string>
+
+    <!--Loan Details Layout-->
+    <string name="loan_detail">Loan Details</string>
+    <string name="loan_detail_loan_ref">Loan Ref</string>
+    <string name="loan_detail_disburse_amount">Disburse Amount</string>
+    <string name="loan_detail_interest_rate">Interest Rate</string>
+    <string name="loan_detail_fee_rate">Fee Rate</string>
+    <string name="loan_detail_loan_outstanding">Loan Outstanding</string>
+    <string name="loan_detail_prin_due">Prin Due</string>
+    <string name="loan_detail_int_due">Int Due</string>
+    <string name="loan_detail_penalty">Penalty</string>
+    <string name="loan_detail_name">Name</string>
+    <string name="loan_detail_tel">Tel</string>
+    <string name="loan_detail_saving_amount">Saving Amount</string>
+    <string name="loan_detail_balance">Balance</string>
+    <string name="loan_detail_total_due">Total Due</string>
+    <string name="loan_detail_amount_in_usd">Amount in USD</string>
+    <string name="loan_detail_amount_in_khr">Amount in KHR</string>
+    <string name="loan_detail_total">Total</string>
+    <string name="loan_detail_submit">Submit</string>
+
+    <!-- Navigation Loan Collection Layout-->
+    <string name="nav_search_loan_overdue">Loan Overdue</string>
+    <string name="nav_search_loan_due">Loan Due</string>
+    <string name="nav_search_due_date">Due Date</string>
+    <string name="nav_search_select_co">Select CO</string>
+    <string name="nav_search_committee">Committee</string>
+    <string name="nav_search_group_id">Group ID</string>
+    <string name="nav_search_account_no">Account No</string>
+    <string name="nav_search_search">Group ID</string>
+
+    <!-- Quick Repay Layout -->
+    <string name="quick_repay">Quick Repay</string>
+    <string name="quick_repay_scan_qr_code">Scan QR Code</string>
+    <string name="quick_repay_loan_ref">Loan Reference</string>
+    <string name="quick_repay_input_loan_ref">Input Loan Reference</string>
+    <string name="quick_repay_submit">Submit</string>
+
+    <!-- Loan Disburse Layout -->
+    <string name="loan_disburse">Loan Disburse</string>
+    <string name="loan_disburse_scan_qr_code">Scan QR Code</string>
+    <string name="loan_disburse_ref">Loan Reference</string>
+    <string name="loan_disburse_input_loan_ref">Input Loan Reference</string>
+    <string name="loan_disburse_submit">Submit</string>
+
+    <!-- Disburse Details Layout -->
+    <string name="disburse_detail">Disburse Details</string>
+    <string name="disburse_detail_loan_ref">Loan Ref</string>
+    <string name="disburse_detail_disburse_amount">Disburse Amount</string>
+    <string name="disburse_detail_interest_rate">Interest Rate</string>
+    <string name="disburse_detail_disbursed_date">Disbursed Date</string>
+    <string name="disburse_detail_first_repay_date">First Repayment Date</string>
+    <string name="disburse_detail_saving_amount">Saving Account</string>
+    <string name="disburse_detail_balance">Balance</string>
+    <string name="disburse_detail_commission">Commission</string>
+    <string name="disburse_detail_charge">Charge</string>
+    <string name="disburse_detail_amount_withdrawal">Amount Withdrawal</string>
+    <string name="disburse_detail_pay_disburse">Pay Disburse</string>
+
+    <!--Loan History-->
+    <string name="loan_history">Loan History</string>
+    <string name="loan_history_ref_no">Ref No</string>
+    <string name="loan_history_total_due">Total Due</string>
+    <string name="loan_history_usd">USD</string>
+    <string name="loan_history_posted_amount">Posted Amount</string>
+    <string name="loan_history_amount_to_pay">Amount to Pay</string>
+    <string name="loan_history_amount_paid">Paid</string>
+
+    <!--Loan Report-->
+    <string name="loan_report">Loan Report</string>
 </resources>
