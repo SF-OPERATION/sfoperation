@@ -21,9 +21,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by narak.hok on 04-May-2018.
  */
 
-public class APIManager {
-    public static final String API_BASE_URL = "https://api.example.com";
-    public static final String API_OAUTH_REDIRECT = "nl.jpelgrm.retrofit2oauthrefresh://oauth";
+public class ServiceGenerator {
+    public static final String API_BASE_URL = "http://192.168.100.202:8081";
+    public static final String API_OAUTH_REDIRECT = "com.sabatfinance.sfoperation://oauth";
 
     private static OkHttpClient.Builder httpClient;
 

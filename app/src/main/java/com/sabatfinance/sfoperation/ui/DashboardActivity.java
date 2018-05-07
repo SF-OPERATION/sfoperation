@@ -1,7 +1,9 @@
-package com.sabatfinance.sfoperation;
+package com.sabatfinance.sfoperation.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.sabatfinance.sfoperation.R;
 
 public class DashboardActivity extends AppCompatActivity {
 
