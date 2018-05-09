@@ -8,9 +8,11 @@ public class OauthConstant {
     public static final String USERNAME = "sbfapiadmin";
     public static final String PASSWORD = "Sadfj#21q34097@#$%&#kjhldlkjj0(*^skjkfhh@#%$";
     public static final String AUTHENTICATION_SERVER_URL = "http://192.168.100.202:8081";
-    public static final String RESOURCE_SERVER_URL = "resource_server_url";
-    public static final String GRANT_TYPE = "grant_type";
-    public static final String SCOPE = "app register accountinfo repayment read write";
+    public static final String RESOURCE_SERVER_URL = "http://192.168.100.202:8082";
+    public static final String GRANT_TYPE = "password credentials";
+    //public static String[] SCOPE = {"app", "register","accountinfo","repayment","read","write"};
+    //public static final String SCOPE = "app register accountinfo repayment read write";
+    public static final String SCOPE = "app";
     public static final String AUTHORIZATION = "Authorization";
     public static final String BEARER = "Bearer";
     public static final String BASIC = "Basic";

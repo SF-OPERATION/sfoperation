@@ -11,9 +11,11 @@ public class RequestInterceptorService {
         @Override
         public void intercept(RequestFacade request) {
 
-
+            request.addHeader("Content-Type", "application/json");
             request.addHeader("Authorization", "Bearer");
             request.addHeader("User-Agent", "Android");
+            request.addHeader("Accept","application/json");
+
         }
 
 

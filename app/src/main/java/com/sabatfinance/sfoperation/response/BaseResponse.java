@@ -1,6 +1,6 @@
 package com.sabatfinance.sfoperation.response;
 
-public class BaseResponse {
+public abstract class BaseResponse {
     private String error = null;
     private String error_description = null;
 

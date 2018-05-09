@@ -1,10 +1,15 @@
 package com.sabatfinance.sfoperation.response;
 
-public class AccessTokenResponse {
+import com.google.gson.annotations.SerializedName;
 
+public class AccessTokenResponse extends BaseResponse {
+    @SerializedName("access_token")
     private String access_token;
+    @SerializedName("refresh_token")
     private String refresh_token;
+    @SerializedName("expires_in")
     private int expires_in;
+    @SerializedName("token_type")
     private String token_type;
 
     public String getAccess_token() {
@@ -26,6 +31,9 @@ public class AccessTokenResponse {
 
     @Override
     public String toString() {
+        if (super.getError() != null && super.getError_description() != null) {
+            return super.getError() + super.getError_description();
+        }
 
         return "AccessToken{" +
                 "accessToken='" + access_token + '\'' +

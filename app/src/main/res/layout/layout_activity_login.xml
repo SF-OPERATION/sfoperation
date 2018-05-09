@@ -158,7 +158,7 @@
 
             </RelativeLayout>
 
-            <TextView
+            <Button
                 android:id="@+id/text_login_login"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -180,6 +180,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/login_sign_up"
                 />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GetUserDetail"
+                android:id="@+id/btnUserDetail"
+                android:hint="SIGN UP"
+                android:layout_below="@+id/txtPasswordSignIn"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|bottom" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserDetail."
+                android:id="@+id/txtUserDetail"
+                android:layout_gravity="center" />
 
         </LinearLayout>
 

@@ -4,12 +4,18 @@ import com.sabatfinance.sfoperation.request.AccessTokenRequest;
 
 import com.sabatfinance.sfoperation.response.AccessTokenResponse;
 
-import retrofit2.Callback;
-import retrofit2.http.Body;
-import retrofit2.http.POST;
+import retrofit.Callback;
+import retrofit.http.Body;
+import retrofit.http.Field;
+import retrofit.http.FormUrlEncoded;
+import retrofit.http.POST;
+
 
 public interface IOauthService {
-    @POST("/oauth/token")
+
+   @POST("/oauth/token")
     void getAccessToken(@Body AccessTokenRequest accessTokenRequest,
                         Callback<AccessTokenResponse> responseCallback);
+
+
 }

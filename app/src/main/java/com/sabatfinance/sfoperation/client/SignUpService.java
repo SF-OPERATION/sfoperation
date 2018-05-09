@@ -15,6 +15,7 @@ public class SignUpService {
 
     public ISignUpService signUpService() {
         RestAdapter restAdapter = new RestAdapter.Builder().setLogLevel(RestAdapter.LogLevel.FULL)
+
                 .setEndpoint(OauthConstant.AUTHENTICATION_SERVER_URL).
                         setRequestInterceptor(new RequestInterceptorService().requestInterceptor)
                 .build();
