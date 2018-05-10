@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 
 import com.sabatfinance.sfoperation.R;
+
 import com.sabatfinance.sfoperation.client.ApiService;
 import com.sabatfinance.sfoperation.client.CurrencyService;
 import com.sabatfinance.sfoperation.client.OauthService;
@@ -26,9 +27,12 @@ import com.sabatfinance.sfoperation.response.CurrencyResponse;
 import com.sabatfinance.sfoperation.response.UserResponse;
 
 
+import java.util.List;
+
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
+import retrofit2.Call;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -106,6 +110,8 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+
+
     public void getAccessToken() {
         AccessTokenRequest accessTokenRequest = new AccessTokenRequest();
         accessTokenRequest.setClient_id(OauthConstant.CLIENT_ID);
@@ -115,10 +121,12 @@ public class LoginActivity extends AppCompatActivity {
         accessTokenRequest.setUsername(OauthConstant.USERNAME);
         accessTokenRequest.setPassword(OauthConstant.PASSWORD);
 
-       // accessTokenRequest.setPassword(editText_password.getText().toString());
+
+        Toast.makeText(getApplicationContext(),"Currency",Toast.LENGTH_SHORT).show();
+       //accessTokenRequest.setPassword(editText_password.getText().toString());
         OauthService service = new OauthService();
 
-        Toast.makeText(getApplicationContext(),accessTokenRequest.toString(),Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),accessTokenRequest.toString(),Toast.LENGTH_SHORT).show();
 
         service.getAccessToken().getAccessToken(accessTokenRequest, new Callback<AccessTokenResponse>() {
             @Override
@@ -159,7 +167,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
     public void signUp() {
-        getMessage();
+
         SignUpRequest signUpRequest = new SignUpRequest();
         signUpRequest.setFullName("HOk Narak");
         signUpRequest.setUsername(OauthConstant.USERNAME);
@@ -182,8 +190,7 @@ public class LoginActivity extends AppCompatActivity {
        });
 
     }
-
-
-
-
 }
+
+
+

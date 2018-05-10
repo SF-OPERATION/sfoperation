@@ -6,8 +6,6 @@ import com.sabatfinance.sfoperation.response.AccessTokenResponse;
 
 import retrofit.Callback;
 import retrofit.http.Body;
-import retrofit.http.Field;
-import retrofit.http.FormUrlEncoded;
 import retrofit.http.POST;
 
 

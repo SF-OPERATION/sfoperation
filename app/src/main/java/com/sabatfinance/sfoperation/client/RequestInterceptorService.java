@@ -7,17 +7,10 @@ import retrofit.RequestInterceptor;
  */
 
 public class RequestInterceptorService {
-    RequestInterceptor requestInterceptor = new RequestInterceptor() {
-        @Override
-        public void intercept(RequestFacade request) {
+    RequestInterceptor requestInterceptor = request -> {
 
-            request.addHeader("Content-Type", "application/json");
-            request.addHeader("Authorization", "Bearer");
-            request.addHeader("User-Agent", "Android");
-            request.addHeader("Accept","application/json");
-
-        }
-
+        request.addHeader("Authorization", "Bearer" );
+        request.addHeader("User-Agent", "Android");
 
     };
 }

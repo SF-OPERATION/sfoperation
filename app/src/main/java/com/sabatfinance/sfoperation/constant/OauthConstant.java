@@ -9,7 +9,7 @@ public class OauthConstant {
     public static final String PASSWORD = "Sadfj#21q34097@#$%&#kjhldlkjj0(*^skjkfhh@#%$";
     public static final String AUTHENTICATION_SERVER_URL = "http://192.168.100.202:8081";
     public static final String RESOURCE_SERVER_URL = "http://192.168.100.202:8082";
-    public static final String GRANT_TYPE = "password credentials";
+    public static final String GRANT_TYPE = "password ";
     //public static String[] SCOPE = {"app", "register","accountinfo","repayment","read","write"};
     //public static final String SCOPE = "app register accountinfo repayment read write";
     public static final String SCOPE = "app";
