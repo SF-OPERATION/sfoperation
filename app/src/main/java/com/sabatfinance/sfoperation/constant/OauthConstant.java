@@ -5,11 +5,12 @@ public class OauthConstant {
     public static final String CLIENT_ID = "SbfAPIAdmin";
     public static final String CLIENT_SECRET = "3dcc1b09-8477-4d3c-b3af-3b00d7be2aa6";
     public static final String REFRESH_TOKEN = "refresh_token";
+    public static final String REFRESH_HEADER  = "Basic U2JmQVBJQWRtaW46M2RjYzFiMDktODQ3Ny00ZDNjLWIzYWYtM2IwMGQ3YmUyYWE2";
     public static final String USERNAME = "sbfapiadmin";
-    public static final String PASSWORD = "Sadfj#21q34097@#$%&#kjhldlkjj0(*^skjkfhh@#%$";
+    public static final String PASSWORD = "12345678";
     public static final String AUTHENTICATION_SERVER_URL = "http://192.168.100.202:8081";
     public static final String RESOURCE_SERVER_URL = "http://192.168.100.202:8082";
-    public static final String GRANT_TYPE = "password ";
+    public static final String GRANT_TYPE = "password";
     //public static String[] SCOPE = {"app", "register","accountinfo","repayment","read","write"};
     //public static final String SCOPE = "app register accountinfo repayment read write";
     public static final String SCOPE = "app";

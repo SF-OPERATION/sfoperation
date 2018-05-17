@@ -32,6 +32,7 @@ import java.util.List;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
+import retrofit.http.Header;
 import retrofit2.Call;
 
 
@@ -117,7 +118,7 @@ public class LoginActivity extends AppCompatActivity {
         accessTokenRequest.setClient_id(OauthConstant.CLIENT_ID);
         accessTokenRequest.setClient_secret(OauthConstant.CLIENT_SECRET);
         accessTokenRequest.setGrant_type(OauthConstant.GRANT_TYPE);
-        accessTokenRequest.setScopes(OauthConstant.SCOPE);
+        accessTokenRequest.setScope(OauthConstant.SCOPE);
         accessTokenRequest.setUsername(OauthConstant.USERNAME);
         accessTokenRequest.setPassword(OauthConstant.PASSWORD);
 
@@ -128,14 +129,12 @@ public class LoginActivity extends AppCompatActivity {
 
         //Toast.makeText(getApplicationContext(),accessTokenRequest.toString(),Toast.LENGTH_SHORT).show();
 
-        service.getAccessToken().getAccessToken(accessTokenRequest, new Callback<AccessTokenResponse>() {
+        service.getAccessToken().getAccessToken(OauthConstant.GRANT_TYPE, OauthConstant.USERNAME, OauthConstant.PASSWORD, OauthConstant.REFRESH_HEADER,OauthConstant.JSON_CONTENT, new Callback<AccessTokenResponse>() {
             @Override
             public void success(AccessTokenResponse accessTokenResponse, Response response) {
-
-
                 if (accessTokenResponse.getAccess_token() == null) {
                     Toast.makeText(getApplicationContext(), accessTokenResponse.getError(), Toast.LENGTH_LONG).show();
-                    Toast.makeText(getApplicationContext(), accessTokenResponse.getAccess_token(), Toast.LENGTH_LONG).show();
+
                 } else {
                     Toast.makeText(getApplicationContext(),
                             accessTokenResponse.getAccess_token(),
@@ -146,7 +145,6 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void failure(RetrofitError error) {
                 Toast.makeText(getApplicationContext(), error.getMessage(), Toast.LENGTH_LONG).show();
-
             }
         });
     }

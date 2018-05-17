@@ -16,6 +16,7 @@ public class OauthService {
     public IOauthService getAccessToken() {
         RestAdapter restAdapter = new RestAdapter.Builder().setLogLevel(RestAdapter.LogLevel.FULL)
                 .setEndpoint(OauthConstant.AUTHENTICATION_SERVER_URL)
+               // .setRequestInterceptor(new RequestInterceptorService().requestInterceptor)
                 .build();
         _oauthService = restAdapter.create(IOauthService.class);
 
